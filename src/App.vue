@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld api="http://jservice.io/api/category?id="/>
+    <JeopardyBoard api="http://jservice.io/api/category?id="/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import JeopardyBoard from './components/JeopardyBoard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JeopardyBoard
   }
 }
 </script>
